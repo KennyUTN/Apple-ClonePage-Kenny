@@ -7,8 +7,11 @@
 }
 main {
 
-  max-width: 1440px;
-  margin: 0 auto;
+  margin: 0 10% 0 10%;
+}
+.bigWrapper{
+  display:flex;
+  flex-direction: column;
 }
 .backgroundWrapper{
 border: 3px solid pink;
@@ -19,11 +22,12 @@ align-items: center;
 flex-direction: column;
 background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
 background-position:bottom;
-max-width:1440px;
+
 min-height:660px;
 }
 
 .navBar{
+  margin-top:-15rem;
   border-radius: 8px;
   padding-left:1rem;
   padding-right:1rem;
@@ -50,7 +54,7 @@ min-height:660px;
   color:white;
 }
 .searchbox{
-
+   display:flex;
   padding-top:0.5rem;
   align-self:baseline;
 }
@@ -61,5 +65,58 @@ min-height:660px;
 }
 
 .big{
+  margin-top:5rem;
+  font-size: 5rem;
+  color:white;
 
+}
+.medium{
+  color:white;
+  font-size:3rem;
+}
+.pandlogo{
+  color:white;
+  font-size:1rem;
+}
+
+.phonesContainer{
+
+  display:flex;
+  max-width: 1440px;
+  
+
+}
+
+.phone1{
+  display:flex;
+  flex-direction: column;
+  width:500px;
+  height: 200px;
+  background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg) no-repeat;
+
+}
+
+.phone2{
+  display:flex;
+  flex-direction: column;
+  width: 450px;
+  height: 200px;
+  background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg) no-repeat;
+
+}
+
+.phone3{
+  display:flex;
+  flex-direction: column;
+  background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg) no-repeat;
+    width: 450px;
+    height: 200px;
+}
+
+.phone4{
+  display:flex;
+  flex-direction: column;
+  background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg) no-repeat;
+  width: 500px;
+  height: 200px;
 }
