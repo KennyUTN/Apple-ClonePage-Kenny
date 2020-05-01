@@ -27,7 +27,7 @@ main {
 }
 
 .navBar {
-  margin-top: -15rem;
+  margin-top: -12rem;
   border-radius: 8px;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -58,31 +58,38 @@ main {
   display: flex;
   padding-top: 0.5rem;
   align-self: baseline;
+
 }
 
 .searchInput {
   background: gray;
+  border-radius:4px;
 }
 
 .big {
+
+  font-family: "Source Sans Pro", sans-serif;
   margin-top: 5rem;
   font-size: 5rem;
   color: white;
 }
 
 .medium {
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
   font-size: 3rem;
 }
 
 .pandlogo {
+  margin-top:1rem;
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .phonesContainer {
   display: flex;
-  margin-left: 8.3%;
+ align-self:center;
   border: 3px solid white;
 }
 
@@ -123,7 +130,7 @@ main {
 }
 
 .footer {
-  margin: 0 10% 0 10%;
+  align-self:center;
   display: flex;
   align-items: baseline;
 
@@ -135,6 +142,7 @@ main {
 
 }
 .firstElm{
+      color: #6e6e6e;
   font-size: .8334em;
   text-decoration: none;
 
@@ -154,8 +162,14 @@ main {
   margin-top: 10px;
 }
 .copyrightWrapper{
+
+  align-self:flex-start;
+      color: #6e6e6e;
     font-size: .8334em;
     display:flex;
     align-items: baseline;
-    margin: 0 10% 0 10%;
+    margin: 0 15% 0 15%;
+}
+.copyright{
+    text-indent:6.8rem;
 }
