@@ -5,118 +5,157 @@
   padding: 0;
   box-sizing: border-box;
 }
-main {
 
+main {
   margin: 0 10% 0 10%;
 }
-.bigWrapper{
-  display:flex;
+
+.bigWrapper {
+  display: flex;
   flex-direction: column;
 }
-.backgroundWrapper{
-border: 3px solid pink;
-display:flex;
-text-align:center;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
-background-position:bottom;
 
-min-height:660px;
+.backgroundWrapper {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  background-position: bottom;
+  min-height: 660px;
 }
 
-.navBar{
-  margin-top:-15rem;
+.navBar {
+  margin-top: -15rem;
   border-radius: 8px;
-  padding-left:1rem;
-  padding-right:1rem;
-  display:flex;
-  max-width:1000px;
-   background: linear-gradient(to bottom, rgb(115, 120, 110) 50%, rgb(69, 74, 73) 50%);
-}
-.navElement{
-    border-left: 3px solid gray;
-   min-width: 110px;
-   min-height: 2rem;
-   padding-top:0.5rem;
-   text-decoration: none;
-   color:white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  max-width: 1000px;
+  background: linear-gradient(to bottom, rgb(115, 120, 110) 50%, rgb(69, 74, 73) 50%);
 }
 
-.appleLogo{
-  font-size:2rem;
-  color:white;
-
+.navElement {
+  border-left: 3px solid gray;
+  min-width: 110px;
+  min-height: 2rem;
+  padding-top: 0.5rem;
+  text-decoration: none;
+  color: white;
 }
 
-.search{
-  color:white;
-}
-.searchbox{
-   display:flex;
-  padding-top:0.5rem;
-  align-self:baseline;
+.appleLogo {
+  font-size: 2rem;
+  color: white;
 }
 
+.search {
+  color: white;
+}
 
-.searchInput{
+.searchbox {
+  display: flex;
+  padding-top: 0.5rem;
+  align-self: baseline;
+}
+
+.searchInput {
   background: gray;
 }
 
-.big{
-  margin-top:5rem;
+.big {
+  margin-top: 5rem;
   font-size: 5rem;
-  color:white;
-
-}
-.medium{
-  color:white;
-  font-size:3rem;
-}
-.pandlogo{
-  color:white;
-  font-size:1rem;
+  color: white;
 }
 
-.phonesContainer{
-
-  display:flex;
-  max-width: 1440px;
-  
-
+.medium {
+  color: white;
+  font-size: 3rem;
 }
 
-.phone1{
-  display:flex;
+.pandlogo {
+  color: white;
+  font-size: 1rem;
+}
+
+.phonesContainer {
+  display: flex;
+  margin-left: 8.3%;
+  border: 3px solid white;
+}
+
+.phone1 {
+  border: 3px solid white;
+  display: flex;
   flex-direction: column;
-  width:500px;
+  width: 360px;
   height: 200px;
   background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg) no-repeat;
-
 }
 
-.phone2{
-  display:flex;
+.phone2 {
+  border: 3px solid white;
+  display: flex;
   flex-direction: column;
-  width: 450px;
+  width: 360px;
   height: 200px;
   background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg) no-repeat;
-
 }
 
-.phone3{
-  display:flex;
+.phone3 {
+  border: 3px solid white;
+  display: flex;
   flex-direction: column;
   background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg) no-repeat;
-    width: 450px;
-    height: 200px;
+  width: 360px;
+  height: 200px;
 }
 
-.phone4{
-  display:flex;
+.phone4 {
+  border: 3px solid white;
+  display: flex;
   flex-direction: column;
   background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg) no-repeat;
-  width: 500px;
+  width: 360px;
   height: 200px;
+}
+
+.footer {
+  margin: 0 10% 0 10%;
+  display: flex;
+  align-items: baseline;
+
+}
+
+.linkswrap {
+  align-items: baseline;
+  display: flex;
+
+}
+.firstElm{
+  font-size: .8334em;
+  text-decoration: none;
+
+}
+.links {
+  font-size: .8334em;
+  text-decoration: none;
+  color: #08c;
+  padding: 10px;
+}
+
+.flag{
+  align-self:baseline;
+  background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/global/elements/flags/16x16/usa.png) no-repeat;
+  height:16px;
+  width:16px;
+  margin-top: 10px;
+}
+.copyrightWrapper{
+    font-size: .8334em;
+    display:flex;
+    align-items: baseline;
+    margin: 0 10% 0 10%;
 }
