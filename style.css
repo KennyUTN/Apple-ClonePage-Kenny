@@ -24,6 +24,9 @@ min-height:660px;
 }
 
 .navBar{
+  border-radius: 8px;
+  padding-left:1rem;
+  padding-right:1rem;
   display:flex;
   max-width:1000px;
    background: linear-gradient(to bottom, rgb(115, 120, 110) 50%, rgb(69, 74, 73) 50%);
@@ -58,5 +61,5 @@ min-height:660px;
 }
 
 .big{
-  
+
 }
