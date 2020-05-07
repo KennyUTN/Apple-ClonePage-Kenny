@@ -3,11 +3,7 @@
 > The following is a front-end copy of an old website of Apple. The main purpose of the project is to learn about backgrounds in CSS and Gradients
 
 ![](img/preview1.png)
-![](img/preview2.png)
-![](img/preview3.png)
-![](img/preview4.png)
 
-Additional description about the project and its features.
 ## Main features:
 
 ### Gradient Nav Bar
