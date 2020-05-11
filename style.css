@@ -94,32 +94,26 @@ header {
   justify-content: center;
 }
 
+.phonesContainer > a {
+border: 3px solid white;
+width: 360px;
+height: 200px;
+}
+
 .phone1 {
-  border: 3px solid white;
-  width: 360px;
-  height: 200px;
   background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg) no-repeat;
 }
 
 .phone2 {
-  border: 3px solid white;
-  width: 360px;
-  height: 200px;
   background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg) no-repeat;
 }
 
 .phone3 {
-  border: 3px solid white;
   background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg) no-repeat;
-  width: 360px;
-  height: 200px;
 }
 
 .phone4 {
-  border: 3px solid white;
   background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg) no-repeat;
-  width: 360px;
-  height: 200px;
 }
 
 .linkswrap {
